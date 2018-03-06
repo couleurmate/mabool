@@ -36,10 +36,9 @@
       text-align: center;
       margin: 25px 0;
     }
+ }
 
-.mabool {
-  max-width: 10vh;
-}
+.mabool { }
 .mabool-sub {
   background-color: #962126;
   color: #fff;
@@ -47,6 +46,14 @@
   border-radius: 1rem;
   font-size: 1.5rem;
   margin: 1rem 2rem;
+}
+
+#mabooul {
+  background-image: url('../image/MABOOUL.jpg');
+  height: 40vh;
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
 }
 
 /* Back to top button */
