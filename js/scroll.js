@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+  $(window).scroll(function(){
+      if($(this).scrollTop() > 100){
+          $('#backtop').fadeIn();
+      }else{
+          $('#backtop').fadeOut();
+      }
+  });
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
 
