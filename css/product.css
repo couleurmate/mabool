@@ -13,7 +13,7 @@
   padding: 60px 50px;
 }
 .site-header {
-  background-color: rgb(150, 33, 38, 0.85);
+  background-color: rgba(150, 33, 38, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
   backdrop-filter: saturate(180%) blur(20px);
 }
@@ -69,14 +69,13 @@
     color: #fff;
     background-color: rgba(0,0,0,0.3);
     text-decoration: none;
-    border-radius: 1rem;
     text-align: center;
     cursor: pointer;
   }
 
 #backtop:hover {
     color: #fff !important;
-    background-color: #B3D16C;
+    background-color: #155E59;
     text-decoration: none;
 }
 

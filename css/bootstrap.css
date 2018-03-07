@@ -19,7 +19,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #962126;
-  --secondary: #6c757d;
+  --secondary: #155E59;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -2537,8 +2537,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #155E59;
+  border-color: #155E59;
 }
 
 .btn-secondary:hover {
@@ -2553,8 +2553,8 @@ fieldset:disabled a.btn {
 
 .btn-secondary.disabled, .btn-secondary:disabled {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #155E59;
+  border-color: #155E59;
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
@@ -2808,16 +2808,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #6c757d;
+  color: #155E59;
   background-color: transparent;
   background-image: none;
-  border-color: #6c757d;
+  border-color: #155E59;
 }
 
 .btn-outline-secondary:hover {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #155E59;
+  border-color: #155E59;
 }
 
 .btn-outline-secondary:focus, .btn-outline-secondary.focus {
@@ -2825,15 +2825,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary.disabled, .btn-outline-secondary:disabled {
-  color: #6c757d;
+  color: #155E59;
   background-color: transparent;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active, .btn-outline-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #6c757d;
-  border-color: #6c757d;
+  background-color: #155E59;
+  border-color: #155E59;
 }
 
 .btn-outline-secondary:not(:disabled):not(.disabled):active:focus, .btn-outline-secondary:not(:disabled):not(.disabled).active:focus,
@@ -4854,7 +4854,7 @@ tbody.collapse.show {
 
 .badge-secondary {
   color: #fff;
-  background-color: #6c757d;
+  background-color: #155E59;
 }
 
 .badge-secondary[href]:hover, .badge-secondary[href]:focus {
@@ -6085,7 +6085,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #6c757d !important;
+  background-color: #155E59 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -6207,7 +6207,7 @@ button.bg-dark:focus {
 }
 
 .border-secondary {
-  border-color: #6c757d !important;
+  border-color: #155E59 !important;
 }
 
 .border-success {
@@ -8832,7 +8832,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #6c757d !important;
+  color: #155E59 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
