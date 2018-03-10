@@ -29,4 +29,33 @@ $(document).ready(function(){
       });
     } // End if
   });
+      $(window).scroll(function() {
+        $('#firstly').css('opacity', 0);
+        $("#firstly").each(function(){
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("fadeInLeft");
+          }
+        });
+        $('#secondly').css('opacity', 0);
+        $("#secondly").each(function(){
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("fadeInRight");
+          }
+        });
+        $('.thirdly').css('opacity', 0);
+        $(".thirdly").each(function(){
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("fadeInUp");
+          }
+        });
+    });
 });

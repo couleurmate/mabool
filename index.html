@@ -11,6 +11,15 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
     <link rel="icon" href="image/favicon.ico">
+    <!-- icon in the highest resolution we need it for -->
+    <link rel="icon" sizes="192x192" href="icon.png">
+
+    <!-- reuse same icon for Safari -->
+    <link rel="apple-touch-icon" href="ios-icon.png">
+
+    <!-- multiple icons for IE -->
+    <meta name="msapplication-square310x310logo" content="icon_largetile.png">
+    <meta name="theme-color" content="#962126">
 
     <title>Mabool - restationnement à vélo de voitures en libre partage</title>
 
@@ -57,7 +66,7 @@
     </nav>
 
       <section id="about" class="container-fluid">
-        <div class="row">
+        <div id="firstly" class="row animated">
           <div class="col-sm-8">
             <h2>À propos</h2>
             <h4>wadesda</h4>
@@ -71,7 +80,7 @@
       </section>
 
       <section class="container-fluid bg-light">
-        <div class="row">
+        <div id="secondly" class="row animated">
           <div class="col-sm-4">
             <span class="fas fa-bicycle fa-10x logo text-primary"></span>
           </div>
@@ -88,7 +97,7 @@
         <h2>Services</h2>
         <h4>Ce que nous faisons</h4>
         <br>
-        <div class="row">
+        <div class="row animated thirdly">
           <div class="col-sm-6">
             <i class="fas fa-car fa-2x text-primary"></i>
             <h4>Re-stationnement</h4>
@@ -100,7 +109,7 @@
             <p>un exemple concret que la mobilité multi-modale existe. Un trajet à vélo égale un trajet en voiture !</p>
           </div>
         </div>
-        <div class="row">
+        <div class="row animated thirdly">
           <div class="col-sm-6">
             <i class="fas fa-share-alt fa-2x text-primary"></i>
             <h4>Mobilité partagée</h4>
