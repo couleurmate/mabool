@@ -12,6 +12,11 @@
 .container-fluid {
   padding: 60px 50px;
 }
+#myCarousel {
+  height: auto !important;
+  width: auto !important;
+  overflow: hidden;
+}
 .site-header {
   background-color: rgba(150, 33, 38, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
