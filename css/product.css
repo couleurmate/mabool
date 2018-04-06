@@ -76,12 +76,15 @@
     }
  }
 
+.jumbotron.bg-light {
+    background-color: rgba(255, 240, 204, 0.7) !important;
+  }
+
 .mabool {
   max-width: 100%;
  }
- .mabool-pic {
-   max-height: 72em;
-   width: auto;
+ .bool {
+   max-height: 75vh;
  }
 .mabool-sub {
   background-color: #962126;
@@ -93,7 +96,6 @@
 
 #mabooul {
   background-image: url('../image/MABOOUL.jpg');
-  height: 40vh;
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
