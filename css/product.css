@@ -50,6 +50,9 @@
 .carousel-caption {
   background-color: rgba(150, 33, 38, 0.5);
 }
+.carousel-control-prev, .carousel-control-next {
+  cursor: pointer;
+}
 .site-header {
   background-color: rgba(150, 33, 38, 0.85);
   -webkit-backdrop-filter: saturate(180%) blur(20px);
@@ -83,9 +86,20 @@
 .mabool {
   max-width: 100%;
  }
+.mabool-logo {
+  max-width: 5em;
+}
  .bool {
    max-height: 75vh;
  }
+   @media screen and (max-width: 39.9375em) {
+     .bool {
+       max-height: 50vh;
+     }
+     .fa-chevron-left.fa-4x {
+       display: hidden;
+     }
+    }
 .mabool-sub {
   background-color: #962126;
   color: #fff;
