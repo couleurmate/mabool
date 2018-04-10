@@ -91,7 +91,7 @@
  }
 
 .mabool {
-  max-width: 100%;
+  max-width: 70vh;
  }
 .mabool-logo {
   max-width: 5em;
@@ -113,6 +113,8 @@
   border: 0.5rem solid #962126;
   border-radius: 1rem;
   font-size: 1.5rem;
+  max-width: 70vh;
+  margin: auto;
 }
 
 #mabooul {

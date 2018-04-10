@@ -24,7 +24,7 @@
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
-  --light: #fffdf8;
+  --light: #fefee2;
   --dark: #343a40;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -2707,8 +2707,8 @@ fieldset:disabled a.btn {
 
 .btn-light {
   color: #212529;
-  background-color: #fffdf8;
-  border-color: #fffdf8;
+  background-color: #fefee2;
+  border-color: #fefee2;
 }
 
 .btn-light:hover {
@@ -2723,8 +2723,8 @@ fieldset:disabled a.btn {
 
 .btn-light.disabled, .btn-light:disabled {
   color: #212529;
-  background-color: #fffdf8;
-  border-color: #fffdf8;
+  background-color: #fefee2;
+  border-color: #fefee2;
 }
 
 .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
@@ -2978,16 +2978,16 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #fffdf8;
+  color: #fefee2;
   background-color: transparent;
   background-image: none;
-  border-color: #fffdf8;
+  border-color: #fefee2;
 }
 
 .btn-outline-light:hover {
   color: #212529;
-  background-color: #fffdf8;
-  border-color: #fffdf8;
+  background-color: #fefee2;
+  border-color: #fefee2;
 }
 
 .btn-outline-light:focus, .btn-outline-light.focus {
@@ -2995,15 +2995,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light.disabled, .btn-outline-light:disabled {
-  color: #fffdf8;
+  color: #fefee2;
   background-color: transparent;
 }
 
 .btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
 .show > .btn-outline-light.dropdown-toggle {
   color: #212529;
-  background-color: #fffdf8;
-  border-color: #fffdf8;
+  background-color: #fefee2;
+  border-color: #fefee2;
 }
 
 .btn-outline-light:not(:disabled):not(.disabled):active:focus, .btn-outline-light:not(:disabled):not(.disabled).active:focus,
@@ -3279,7 +3279,7 @@ tbody.collapse.show {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #fffdf8;
+  background-color: #fefee2;
 }
 
 .dropdown-item.active, .dropdown-item:active {
@@ -4909,7 +4909,7 @@ tbody.collapse.show {
 
 .badge-light {
   color: #212529;
-  background-color: #fffdf8;
+  background-color: #fefee2;
 }
 
 .badge-light[href]:hover, .badge-light[href]:focus {
@@ -5062,7 +5062,7 @@ tbody.collapse.show {
 
 .alert-light {
   color: #818182;
-  background-color: #fefefe;
+  background-color: #fefee2;
   border-color: #fdfdfe;
 }
 
@@ -5180,7 +5180,7 @@ tbody.collapse.show {
 .list-group-item-action:hover, .list-group-item-action:focus {
   color: #495057;
   text-decoration: none;
-  background-color: #fffdf8;
+  background-color: #fefee2;
 }
 
 .list-group-item-action:active {
@@ -6135,7 +6135,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #fffdf8 !important;
+  background-color: #fefee2 !important;
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -6227,7 +6227,7 @@ button.bg-dark:focus {
 }
 
 .border-light {
-  border-color: #fffdf8 !important;
+  border-color: #fefee2 !important;
 }
 
 .border-dark {
@@ -8872,7 +8872,7 @@ a.text-danger:hover, a.text-danger:focus {
 }
 
 .text-light {
-  color: #fffdf8 !important;
+  color: #fefee2 !important;
 }
 
 a.text-light:hover, a.text-light:focus {
