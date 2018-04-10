@@ -39,9 +39,20 @@
   padding: 100px 25px;
   margin: 0;
 }
+
+.jumbotron, .jumbotron-fluid.bg-light {
+  background-color: rgba(255, 240, 204, 0.7) !important;
+}
+
 .container-fluid {
   padding: 60px 50px;
 }
+  #mabooul {
+    min-height: 100vh;
+  }
+  #mabooul.container-fluid {
+    padding: 0px;
+  }
 #myCarousel {
   height: auto !important;
   width: auto !important;
@@ -78,10 +89,6 @@
       margin: 25px 0;
     }
  }
-
-.jumbotron.bg-light {
-    background-color: rgba(255, 240, 204, 0.7) !important;
-  }
 
 .mabool {
   max-width: 100%;
