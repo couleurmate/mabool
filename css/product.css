@@ -91,7 +91,7 @@
  }
 
 .mabool {
-  max-width: 70vh;
+  max-width: 50vh;
  }
 .mabool-logo {
   max-width: 5em;
@@ -99,22 +99,29 @@
  .bool {
    max-height: 75vh;
  }
-   @media screen and (max-width: 39.9375em) {
-     .bool {
-       max-height: 50vh;
-     }
-     .fa-chevron-left.fa-4x {
-       display: hidden;
-     }
-    }
 .mabool-sub {
   background-color: #962126;
   color: #fff;
   border: 0.5rem solid #962126;
   border-radius: 1rem;
   font-size: 1.5rem;
-  max-width: 70vh;
+  max-width: 50vh;
   margin: auto;
+}
+@media screen and (max-width: 39.9375em) {
+  .bool {
+    max-height: 50vh;
+  }
+  .fa-chevron-left.fa-4x {
+    display: hidden;
+  }
+  .mabool-sub {
+    font-size: 1.2rem;
+  }
+}
+
+.lead {
+  font-size: 1rem;
 }
 
 #mabooul {
