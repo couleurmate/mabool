@@ -130,6 +130,13 @@
   background-position:center center;
   background-attachment:fixed;
 }
+#maboul-section {
+  background-image: url('../image/section.jpg');
+  background-size:cover;
+  background-position:100% 95%;
+  background-attachment:fixed;
+  min-height: 50vh;
+}
 
 /* Back to top button */
 #backtop {
