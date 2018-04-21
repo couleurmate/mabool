@@ -19,7 +19,7 @@
     <meta name="msapplication-TileColor" content="#962126">
     <meta name="msapplication-config" content="image/browserconfig.xml">
 
-    <title>Mabool - restationnement à vélo de voitures en libre partage</title>
+    <title>Mabool - shared mobility services</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -48,12 +48,12 @@
     <nav class="navbar site-header py-1 sticky-top">
       <div class="container d-flex flex-column flex-md-row justify-content-between">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#myPage"><img src="image/mabool-logo.png" alt="Mabool logo" class="mabool-logo"></a>
+          <a class="navbar-brand" href="#myPage"><img src="image/mabool-logo.png" id="maboologo" alt="Mabool logo" class="mabool-logo animated"></a>
         </div>
         <ul class="nav nav-pills">
           <li class="nav-item"><a class="nav-link py-2 d-none d-md-inline-block" href="#about">À propos</a></li>
-          <li class="nav-item"><a class="nav-link py-2 d-none d-md-inline-block" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link py-2 d-none d-md-inline-block" href="#multimodal">Multimodalité</a></li>
+          <li class="nav-item"><a class="nav-link py-2 d-none d-md-inline-block" href="#services">Services</a></li>
           <li class="nav-item"><a class="nav-link py-2 d-none d-md-inline-block" href="#contact">Contact</a></li>
         </ul>
       </div>
@@ -83,7 +83,7 @@
       <section id="maboul-section1" class="container-fluid maboul-section">
       </section>
 
-      <section class="container-fluid bg-light">
+      <section id="multimodal" class="container-fluid bg-light">
         <div id="secondly" class="row animated">
           <div class="col-sm-4">
             <i class="icon-plooi fa-10x text-primary"></i>
@@ -148,7 +148,7 @@
       <section id="maboul-section3" class="container-fluid maboul-section">
       </section>
 
-      <section id="multimodal" class="container-fluid text-center bg-light" style="display:none">
+      <section class="container-fluid text-center bg-light" style="display:none">
         <h2>Mabool en images</h2>
         <div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
           <!--Wrapper-->
@@ -202,13 +202,17 @@
             <p><i class="fas fa-envelope fa-fw mr-2"></i><a class="text-light" href="hello@mabool.be">hello@mabool.be</a></p>
           </div>
           <div class="col-sm-6">
-            <h4 class="" >Envie de devenir coursier ?</h4>
+            <i class="icon-plooi fa-4x text-white align-middle"></i>
+            <h4 class="">Envie de devenir coursier ?</h4>
+            <p>Si tu te sens l’âme d’un coursier vélo urbain, que passez d’un guidon à un volant ne te fait
+              pas peur, que les pavés bruxellois résonnent en harmonie avec ton corps ! Tu es fin prêt à
+              rejoindre la Team Mabool !</p>
             <div class="row">
               <div class="col-sm-12 mb-3 mt-3">
-                <a href="#" class="btn btn-secondary btn-lg">Remplis ce formulaire</a>
+                <a href="#" class="btn btn-secondary btn-lg">Pour cela, remplis le questionnaire ci-joint !</a>
               </div>
               <div class="col-sm-12">
-                <p>Nous reviendons vers toi au plus vite !</p>
+                <p>On te contactera au plus vite</p>
               </div>
             </div>
           </div>

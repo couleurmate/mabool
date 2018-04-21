@@ -125,10 +125,24 @@
 }
 
 #mabooul {
-  background-image: url('../image/MABOOUL.jpg');
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
+}
+@media (max-width: 480px) {
+  #mabooul {
+    background-image: url('../image/mabooulsmall.jpg');
+  }
+}
+@media (max-width: 800px) {
+  #mabooul {
+  background-image: url('../image/mabooulmedium.jpg');
+  }
+}
+@media (min-width: 801px) {
+  #mabooul {
+  background-image: url('../image/mabooullarge.jpg');
+  }
 }
 .maboul-section {
   background-size:cover;
@@ -136,16 +150,51 @@
   background-attachment:fixed;
   min-height: 50vh;
 }
-  #maboul-section1 {
-    background-image: url('../image/mabool1.jpg');
+  @media (max-width: 480px) {
+    #maboul-section1 {
+      background-image: url('../image/mabool1small.jpg');
+    }
   }
-  #maboul-section2 {
-    background-image: url('../image/mabool2.jpg');
+  @media (max-width: 800px) {
+    #maboul-section1 {
+    background-image: url('../image/mabool1medium.jpg');
+    }
   }
-  #maboul-section3 {
-    background-image: url('../image/mabool3.jpg');
+  @media (min-width: 801px) {
+    #maboul-section1 {
+    background-image: url('../image/mabool1large.jpg');
+    }
   }
-
+  @media (max-width: 480px) {
+    #maboul-section2 {
+      background-image: url('../image/mabool2small.jpg');
+    }
+  }
+  @media (max-width: 800px) {
+    #maboul-section2 {
+    background-image: url('../image/mabool2medium.jpg');
+    }
+  }
+  @media (min-width: 801px) {
+    #maboul-section2 {
+    background-image: url('../image/mabool2large.jpg');
+    }
+  }
+  @media (max-width: 480px) {
+    #maboul-section3 {
+      background-image: url('../image/mabool3small.jpg');
+    }
+  }
+  @media (max-width: 800px) {
+    #maboul-section3 {
+    background-image: url('../image/mabool3medium.jpg');
+    }
+  }
+  @media (min-width: 801px) {
+    #maboul-section3 {
+    background-image: url('../image/mabool3large.jpg');
+    }
+  }
 
 /* Back to top button */
 #backtop {

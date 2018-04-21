@@ -30,6 +30,15 @@ $(document).ready(function(){
     } // End if
   });
       $(window).scroll(function() {
+        $('#maboologo').css('opacity', 0);
+        $("#maboologo").each(function(){
+          var pos = $(this).offset().top;
+
+          var winTop = $(window).scrollTop();
+          if (pos < winTop + 600) {
+            $(this).addClass("bounceIn");
+          }
+        });
         $('#firstly').css('opacity', 0);
         $("#firstly").each(function(){
           var pos = $(this).offset().top;
