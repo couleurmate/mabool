@@ -134,33 +134,39 @@
     background-image: url('../image/mabooulsmall.jpg');
   }
 }
-@media (max-width: 800px) {
+@media (min-width: 400px) {
   #mabooul {
   background-image: url('../image/mabooulmedium.jpg');
   }
 }
-@media (min-width: 801px) {
+@media (min-width: 992px) {
   #mabooul {
   background-image: url('../image/mabooullarge.jpg');
   }
 }
 .maboul-section {
   background-size:cover;
-  background-position:100% 95%;
-  background-attachment:fixed;
+  background-position: 100% 95%;
+  background-attachment: fixed;
   min-height: 50vh;
 }
+  @media (max-width:600px) {
+    .maboul-section {
+      background-position: 50% 90%;
+      background-attachment: scroll;
+    }
+  }
   @media (max-width: 400px) {
     #maboul-sectionfield {
       background-image: url('../image/mabool1small.jpg');
     }
   }
-  @media (max-width: 800px) {
+  @media (min-width: 400px) {
     #maboul-sectionfield {
     background-image: url('../image/mabool1medium.jpg');
     }
   }
-  @media (min-width: 801px) {
+  @media (min-width: 992px) {
     #maboul-sectionfield {
     background-image: url('../image/mabool1large.jpg');
     }
@@ -170,12 +176,12 @@
       background-image: url('../image/mabool2small.jpg');
     }
   }
-  @media (max-width: 800px) {
+  @media (min-width: 400px) {
     #maboul-sectionwood {
     background-image: url('../image/mabool2medium.jpg');
     }
   }
-  @media (min-width: 801px) {
+  @media (min-width: 992px) {
     #maboul-sectionwood {
     background-image: url('../image/mabool2large.jpg');
     }
@@ -185,12 +191,12 @@
       background-image: url('../image/mabool3small.jpg');
     }
   }
-  @media (max-width: 800px) {
+  @media (min-width: 400px) {
     #maboul-sectioncoffre {
     background-image: url('../image/mabool3medium.jpg');
     }
   }
-  @media (min-width: 801px) {
+  @media (min-width: 992px) {
     #maboul-sectioncoffre {
     background-image: url('../image/mabool3large.jpg');
     }
